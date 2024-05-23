@@ -1,0 +1,17 @@
+#! /usr/bin/dh-exec
+
+ddk119/usr/lib/libGLESv1_CM_PVR_MESA.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk119/usr/lib/libGLESv2_PVR_MESA.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk119/usr/lib/libglslcompiler.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk119/usr/lib/libpvr_dri_support.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk119/usr/lib/libPVROCL.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk119/usr/lib/libPVRScopeServices.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk119/usr/lib/libsrv_um.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk119/usr/lib/libsutu_display.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk119/usr/lib/libufwriter.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk119/usr/lib/libusc.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk119/usr/lib/libVK_IMG.so* usr/lib/${DEB_HOST_MULTIARCH}/
+
+ddk119/etc/vulkan/icd.d/icdconf.json usr/share/vulkan/icd.d/pvr.json
+ddk119/etc/OpenCL usr/share/
+

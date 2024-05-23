@@ -1,4 +1,4 @@
-Source: img-gpu-bin-ddk119
+Source: img-gpu-bin
 Section: misc
 Priority: optional
 Maintainer: Yukari Chiba <i@0x7f.cc>
@@ -9,18 +9,38 @@ Build-Depends:
  libdrm2, libwayland-client0, libx11-xcb1
 Rules-Requires-Root: no
 
-Package: img-gpu-bin
+Package: img-gpu-bin-ddk119
 Section: libs
 Architecture: linux-any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}
+Provides: img-gpu-bin
 Multi-Arch: foreign
 Description: PowerVR GPU driver (binary)
 
-Package: firmware-imggpu
+Package: firmware-imggpu-ddk119
 Section: misc
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}
+Provides: firmware-imggpu
+Multi-Arch: foreign
+Description: PowerVR GPU firmware
+
+Package: img-gpu-bin-ddk117
+Section: libs
+Architecture: linux-any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}
+Provides: img-gpu-bin
+Multi-Arch: foreign
+Description: PowerVR GPU driver (binary)
+
+Package: firmware-imggpu-ddk117
+Section: misc
+Architecture: all
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}
+Provides: firmware-imggpu
 Multi-Arch: foreign
 Description: PowerVR GPU firmware
