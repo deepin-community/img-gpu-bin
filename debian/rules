@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_OPTIONS += nostrip
+
+%:
+	dh $@
+
+execute_after_dh_fixperms:
+	chmod -v 755 debian/img-gpu-bin/usr/lib/*/lib*.so
