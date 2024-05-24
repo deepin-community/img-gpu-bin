@@ -1,3 +1,9 @@
+img-gpu-bin (2024.05.24-1deepin0) unstable; urgency=medium
+
+  * add spacemit-k1 ddk 232
+
+ -- Chang Yang <yangchang@deepin.org>  Fri, 24 May 2024 17:15:23 +0800
+
 img-gpu-bin (2024.05.23-1deepin0) unstable; urgency=medium
 
   * add pvr

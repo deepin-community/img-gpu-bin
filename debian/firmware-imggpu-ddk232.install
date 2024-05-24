@@ -1,0 +1,2 @@
+ddk232/lib/firmware/* usr/lib/firmware/
+copy-img-firmware etc/initramfs-tools/hooks/

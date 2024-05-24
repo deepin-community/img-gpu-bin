@@ -44,3 +44,21 @@ Depends: ${misc:Depends}
 Provides: firmware-imggpu
 Multi-Arch: foreign
 Description: PowerVR GPU firmware
+
+Package: img-gpu-bin-ddk232
+Section: libs
+Architecture: linux-any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}
+Provides: img-gpu-bin
+Multi-Arch: foreign
+Description: PowerVR GPU driver (binary)
+
+Package: firmware-imggpu-ddk232
+Section: misc
+Architecture: all
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}
+Provides: firmware-imggpu
+Multi-Arch: foreign
+Description: PowerVR GPU firmware
