@@ -1,3 +1,9 @@
+img-gpu-bin (2025.04.17-1deepin0) unstable; urgency=medium
+
+  * update for eic7700/k1 to ddk 242
+
+ -- Chang Yang <yangchang@deepin.org>  Thu, 17 Apr 2025 16:19:02 +0800
+
 img-gpu-bin (2024.05.24-1deepin0) unstable; urgency=medium
 
   * add spacemit-k1 ddk 232

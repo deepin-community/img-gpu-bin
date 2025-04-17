@@ -1,0 +1,2 @@
+ddk242-k1/lib/firmware/* usr/lib/firmware/
+copy-img-firmware etc/initramfs-tools/hooks/
