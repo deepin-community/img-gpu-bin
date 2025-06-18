@@ -11,6 +11,6 @@ ddk242-eic7700/usr/lib/libufwriter.so* usr/lib/${DEB_HOST_MULTIARCH}/
 ddk242-eic7700/usr/lib/libusc.so* usr/lib/${DEB_HOST_MULTIARCH}/
 ddk242-eic7700/usr/lib/libVK_IMG.so* usr/lib/${DEB_HOST_MULTIARCH}/
 
-ddk242-eic7700/etc/vulkan/icd.d/icdconf.json usr/share/vulkan/icd.d/pvr.json
+ddk242-eic7700/etc/vulkan/icd.d/* usr/share/vulkan/icd.d/
 ddk242-eic7700/etc/OpenCL/vendors/IMG.icd etc/OpenCL/vendors/IMG.icd
 ddk242-eic7700/etc/powervr.ini etc/powervr.ini

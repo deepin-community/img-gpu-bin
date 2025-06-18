@@ -1,3 +1,9 @@
+img-gpu-bin (2025.06.18-1deepin0) unstable; urgency=medium
+
+  * update firmware for ddk242-eic7700
+
+ -- Chang Yang <yangchang@deepin.org>  Wed, 18 Jun 2025 10:40:14 +0800
+
 img-gpu-bin (2025.04.17-1deepin0) unstable; urgency=medium
 
   * update for eic7700/k1 to ddk 242
