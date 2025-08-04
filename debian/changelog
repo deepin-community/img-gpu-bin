@@ -1,3 +1,9 @@
+img-gpu-bin (2025.08.03-1deepin0) unstable; urgency=medium
+
+  * update firmware for ddk242-k1
+
+ -- Chang Yang <yangchang@deepin.org>  Mon, 04 Aug 2025 11:16:14 +0800
+
 img-gpu-bin (2025.06.18-1deepin0) unstable; urgency=medium
 
   * update firmware for ddk242-eic7700
@@ -21,4 +27,3 @@ img-gpu-bin (2024.05.23-1deepin0) unstable; urgency=medium
   * add pvr
 
  -- Chang Yang <yangchang@deepin.org>  Thu, 23 May 2024 11:12:58 +0800
-
