@@ -1,3 +1,9 @@
+img-gpu-bin (2025.08.03-2deepin0) unstable; urgency=medium
+
+  * fix git lfs
+
+ -- Chang Yang <yangchang@deepin.org>  Mon, 04 Aug 2025 14:45:53 +0800
+
 img-gpu-bin (2025.08.03-1deepin0) unstable; urgency=medium
 
   * update firmware for ddk242-k1
