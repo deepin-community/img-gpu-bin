@@ -1,3 +1,9 @@
+img-gpu-bin (2025.11.07-1deepin0) unstable; urgency=medium
+
+  * add ddk242-a733
+
+ -- Chang Yang <yangchang@deepin.org>  Fri, 07 Nov 2025 12:14:51 +0800
+
 img-gpu-bin (2025.08.03-2deepin0) unstable; urgency=medium
 
   * fix git lfs

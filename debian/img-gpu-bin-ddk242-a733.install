@@ -1,0 +1,13 @@
+#! /usr/bin/dh-exec
+
+ddk242-a733/usr/lib/libGLESv1_CM_PVR_MESA.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk242-a733/usr/lib/libGLESv2_PVR_MESA.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk242-a733/usr/lib/libglslcompiler.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk242-a733/usr/lib/libpvr_dri_support.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk242-a733/usr/lib/libPVROCL.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk242-a733/usr/lib/libPVRScopeServices.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk242-a733/usr/lib/libsrv_um.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk242-a733/usr/lib/libsutu_display.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk242-a733/usr/lib/libufwriter.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk242-a733/usr/lib/libusc.so* usr/lib/${DEB_HOST_MULTIARCH}/
+ddk242-a733/usr/lib/libVK_IMG.so* usr/lib/${DEB_HOST_MULTIARCH}/
