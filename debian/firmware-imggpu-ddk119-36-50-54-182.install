@@ -1,0 +1,2 @@
+firmware/ddk119/36.50.54.182/* usr/lib/firmware/
+copy-img-firmware etc/initramfs-tools/hooks/

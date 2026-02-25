@@ -1,0 +1,16 @@
+#! /usr/bin/dh-exec
+
+bin/ddk242/36.29.52.182/${DEB_BUILD_ARCH}/usr/lib/libGLESv1_CM_PVR_MESA.so* usr/lib/${DEB_HOST_MULTIARCH}/
+bin/ddk242/36.29.52.182/${DEB_BUILD_ARCH}/usr/lib/libGLESv2_PVR_MESA.so* usr/lib/${DEB_HOST_MULTIARCH}/
+bin/ddk242/36.29.52.182/${DEB_BUILD_ARCH}/usr/lib/libglslcompiler.so* usr/lib/${DEB_HOST_MULTIARCH}/
+bin/ddk242/36.29.52.182/${DEB_BUILD_ARCH}/usr/lib/libpvr_dri_support.so* usr/lib/${DEB_HOST_MULTIARCH}/
+bin/ddk242/36.29.52.182/${DEB_BUILD_ARCH}/usr/lib/libPVROCL.so* usr/lib/${DEB_HOST_MULTIARCH}/
+bin/ddk242/36.29.52.182/${DEB_BUILD_ARCH}/usr/lib/libPVRScopeServices.so* usr/lib/${DEB_HOST_MULTIARCH}/
+bin/ddk242/36.29.52.182/${DEB_BUILD_ARCH}/usr/lib/libsrv_um.so* usr/lib/${DEB_HOST_MULTIARCH}/
+bin/ddk242/36.29.52.182/${DEB_BUILD_ARCH}/usr/lib/libsutu_display.so* usr/lib/${DEB_HOST_MULTIARCH}/
+bin/ddk242/36.29.52.182/${DEB_BUILD_ARCH}/usr/lib/libufwriter.so* usr/lib/${DEB_HOST_MULTIARCH}/
+bin/ddk242/36.29.52.182/${DEB_BUILD_ARCH}/usr/lib/libusc.so* usr/lib/${DEB_HOST_MULTIARCH}/
+bin/ddk242/36.29.52.182/${DEB_BUILD_ARCH}/usr/lib/libVK_IMG.so* usr/lib/${DEB_HOST_MULTIARCH}/
+
+bin/ddk242/36.29.52.182/${DEB_BUILD_ARCH}/etc/vulkan/icd.d/powervr_icd.json usr/share/vulkan/icd.d/pvr.json
+bin/ddk242/36.29.52.182/${DEB_BUILD_ARCH}/etc/powervr.ini etc/powervr.ini

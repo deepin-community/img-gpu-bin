@@ -9,92 +9,110 @@ Build-Depends:
  libdrm2, libwayland-client0, libx11-xcb1
 Rules-Requires-Root: no
 
-Package: img-gpu-bin-ddk119
+Package: img-gpu-bin-ddk117-36-52-104-182
 Section: libs
 Architecture: riscv64
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}
-Provides: img-gpu-bin
+Provides: img-gpu-bin,
+          img-gpu-bin-ddk117,
 Multi-Arch: foreign
 Description: PowerVR GPU driver (binary)
 
-Package: firmware-imggpu-ddk119
+Package: firmware-imggpu-ddk117-36-52-104-182
 Section: misc
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}
-Provides: firmware-imggpu
+Provides: firmware-imggpu,
+          firmware-imggpu-ddk117,
 Multi-Arch: foreign
 Description: PowerVR GPU firmware
 
-Package: img-gpu-bin-ddk117
+Package: img-gpu-bin-ddk119-36-50-54-182
 Section: libs
 Architecture: riscv64
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}
-Provides: img-gpu-bin
+Provides: img-gpu-bin,
+          img-gpu-bin-ddk119,
 Multi-Arch: foreign
 Description: PowerVR GPU driver (binary)
 
-Package: firmware-imggpu-ddk117
+Package: firmware-imggpu-ddk119-36-50-54-182
 Section: misc
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}
-Provides: firmware-imggpu
+Provides: firmware-imggpu,
+          firmware-imggpu-ddk119,
 Multi-Arch: foreign
 Description: PowerVR GPU firmware
 
-Package: img-gpu-bin-ddk242-k1
+Package: img-gpu-bin-ddk242-30-3-408-101
 Section: libs
 Architecture: riscv64
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}
-Provides: img-gpu-bin
+Provides: img-gpu-bin,
+          img-gpu-bin-ddk242,
+          img-gpu-bin-ddk242-eic7700,
 Multi-Arch: foreign
 Description: PowerVR GPU driver (binary)
 
-Package: firmware-imggpu-ddk242-k1
+Package: firmware-imggpu-ddk242-30-3-408-101
 Section: misc
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}
-Provides: firmware-imggpu
+Provides: firmware-imggpu,
+          firmware-imggpu-ddk242,
+          firmware-imggpu-ddk242-eic7700,
 Multi-Arch: foreign
 Description: PowerVR GPU firmware
 
-Package: img-gpu-bin-ddk242-a733
-Section: libs
-Architecture: arm64
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}
-Provides: img-gpu-bin
-Multi-Arch: foreign
-Description: PowerVR GPU driver (binary)
-
-Package: firmware-imggpu-ddk242-a733
-Section: misc
-Architecture: all
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}
-Provides: firmware-imggpu
-Multi-Arch: foreign
-Description: PowerVR GPU firmware
-
-Package: img-gpu-bin-ddk242-eic7700
+Package: img-gpu-bin-ddk242-36-29-52-182
 Section: libs
 Architecture: riscv64
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}
-Provides: img-gpu-bin
+Provides: img-gpu-bin,
+          img-gpu-bin-ddk242,
+          img-gpu-bin-ddk242-k1,
 Multi-Arch: foreign
 Description: PowerVR GPU driver (binary)
 
-Package: firmware-imggpu-ddk242-eic7700
+Package: firmware-imggpu-ddk242-36-29-52-182
 Section: misc
 Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}
-Provides: firmware-imggpu
+Provides: firmware-imggpu,
+          firmware-imggpu-ddk242,
+          firmware-imggpu-ddk242-k1,
+Multi-Arch: foreign
+Description: PowerVR GPU firmware
+
+Package: img-gpu-bin-ddk242-36-56-104-183
+Section: libs
+Architecture: arm64 riscv64
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}
+Provides: img-gpu-bin,
+          img-gpu-bin-ddk242,
+          img-gpu-bin-ddk242-a733,
+          img-gpu-bin-ddk242-k3,
+Multi-Arch: foreign
+Description: PowerVR GPU driver (binary)
+
+Package: firmware-imggpu-ddk242-36-56-104-183
+Section: misc
+Architecture: all
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}
+Provides: firmware-imggpu,
+          firmware-imggpu-ddk242,
+          firmware-imggpu-ddk242-a733,
+          firmware-imggpu-ddk242-k3,
 Multi-Arch: foreign
 Description: PowerVR GPU firmware
