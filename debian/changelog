@@ -1,3 +1,9 @@
+img-gpu-bin (2026.05.25-1deepin0) unstable; urgency=medium
+
+  * add ddk251
+
+ -- Chang Yang <yangchang@deepin.org>  Mon, 25 May 2026 13:54:40 +0800
+
 img-gpu-bin (2026.02.25-1deepin0) unstable; urgency=medium
 
   * restruct

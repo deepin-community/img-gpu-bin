@@ -116,3 +116,23 @@ Provides: firmware-imggpu,
           firmware-imggpu-ddk242-k3,
 Multi-Arch: foreign
 Description: PowerVR GPU firmware
+
+Package: img-gpu-bin-ddk251-36-52-104-182
+Section: libs
+Architecture: riscv64
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}
+Provides: img-gpu-bin,
+          img-gpu-bin-ddk251,
+Multi-Arch: foreign
+Description: PowerVR GPU driver (binary)
+
+Package: firmware-imggpu-ddk251-36-52-104-182
+Section: misc
+Architecture: all
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}
+Provides: firmware-imggpu,
+          firmware-imggpu-ddk251,
+Multi-Arch: foreign
+Description: PowerVR GPU firmware
